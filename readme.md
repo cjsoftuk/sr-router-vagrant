@@ -29,5 +29,5 @@ This always fetches the latest stuff from puppet when the box
 is built, and also does a bunch of other necessary configuration.
 
 The virtual machine is networked into your computer via NAT. Every port on
-the machine is mapped to 5000 + actual port (e.g. 5080,5443,5022). This
+the machine is mapped to 6000 + actual port (e.g. 6080,6443,6022). This
 allows you to ssh in
