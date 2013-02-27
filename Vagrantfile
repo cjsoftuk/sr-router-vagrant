@@ -11,7 +11,7 @@ Vagrant::Config.run do |config|
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  config.vm.box_url = "http://bcfadb8ebd0795abb423-ca29da649401339a40eeab39ebf986d8.r44.cf3.rackcdn.com/debian-wheezy-i386.box"
+  config.vm.box_url = "http://bcfadb8ebd0795abb423-ca29da649401339a40eeab39ebf986d8.r44.cf3.rackcdn.com/package.box"
 
   config.vm.provision :shell, :path => "build.sh"
 
