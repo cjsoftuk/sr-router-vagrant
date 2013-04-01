@@ -5,17 +5,13 @@ is a vagrant configuration that will very easily go from scratch to a vagrantbox
 
 ##Setup
 
-1. Install ruby 1.9.3 or greater [RVM might help](https://rvm.io/rvm/install/)
-2. Install virtualbox
-3. You'll need the ruby development headers. On Fedora it's `yum install
-   ruby-devel libffi-devel` on debian-like (including ubuntu) it's `apt-get
-   install ruby-dev libffi-dev`.
-4. `gem install vagrant`
-5. `git clone https://github.com/cjsoftuk/sr-router-vagrant.git && cd
-   sr-router-vagrant
-6. `vagrant up --provision`
-7. Wait about 20 minutes
-8. `vagrant ssh` to log into the box. You have passwordless sudo from the
+1. Install virtualbox
+2. Install the virtualbox extensions pack
+3. Install vagrant (this may require ruby 1.9.3+ including development headers if going via a gem).
+4. `git clone https://github.com/cjsoftuk/sr-router-vagrant.git && cd sr-router-vagrant`
+5. `vagrant up --provision`
+6. Wait about 20 minutes
+7. `vagrant ssh` to log into the box. You have passwordless sudo from the
    vagrant user to root. In case you need to know the password it's 'vagrant'
 
 
